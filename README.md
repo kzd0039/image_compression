@@ -1,10 +1,10 @@
 # image Compression 
 Codes of three methods(codes and videos) in different folders<br>
-Dataset in image Folder.(or download from http://netdissect.csail.mit.edu/data/broden1_227.zip)
+Dataset in image Folder.(or download from http://netdissect.csail.mit.edu/data/broden1_227.zip)<br>
 Videos in vidow Folder.
 
 ## svd
-Python 3.7.7
+Python 3.7.7<br>
 Install all the necessary package and select the code segment want to run in main()
 
 ## K-mean Folder
