@@ -287,7 +287,7 @@ def main():
     '''
     test for running time over rank on first 50 images of the dataset
     '''
-    rank_over_compress()
+    # rank_over_compress()
 
 
     '''
