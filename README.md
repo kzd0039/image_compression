@@ -1,7 +1,7 @@
 # image Compression 
-Codes of three methods(codes and videos) in different folders<br>
+Original codes of three methods<br>
 Dataset in image Folder.(or download from http://netdissect.csail.mit.edu/data/broden1_227.zip)<br>
-Videos in vidow Folder.
+Videos in video Folder.
 
 ## svd
 Python 3.7.7<br>
