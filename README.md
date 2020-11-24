@@ -1,6 +1,6 @@
 # image Compression 
-Codes of three methods in different file
-## K-mean
+Codes of three methods(codes and videos) in different folders
+## K-mean Folder
 ### comparison for different Ks
 Software:MATLAB<br>
 1.download all files in MATLAB folder into the same folder<br> 2. Run PictureCompress file.<br>
