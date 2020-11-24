@@ -166,14 +166,12 @@ def svd_1D(A, epsilon=1e-10):
         if abs(np.dot(current_V, last_V)) > 1 - epsilon:
             return current_V
 
-#input:A -> matrix 
-#      k -> number of singular value to calculate, default to none
-def svd(A, k = None, epsilon = 1e-10):
+# svd decompose on A
+def svd(A, epsilon = 1e-10):
     A = np.array(A, dtype=float)
     n, m = A.shape
     current_svd = []
-    if k is None:
-        k = min(n, m)
+    k = min(n, m)
 
     for i in range(k):
         matrixFor1D = A.copy()
@@ -287,7 +285,7 @@ def main():
     '''
     test for running time over rank on first 50 images of the dataset
     '''
-    # rank_over_compress()
+    rank_over_compress()
 
 
     '''
