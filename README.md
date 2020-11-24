@@ -1,5 +1,6 @@
 # image Compression 
-Codes of three methods(codes and videos) in different folders
+Codes of three methods(codes and videos) in different folders<br>
+Dataset in image Folder.
 ## K-mean Folder
 ### comparison for different Ks
 Software:MATLAB<br>
