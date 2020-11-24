@@ -3,7 +3,7 @@ Original codes of three methods<br>
 Dataset in image Folder.(or download from http://netdissect.csail.mit.edu/data/broden1_227.zip)<br>
 Videos in video Folder.
 
-## svd
+## SVD
 Python 3.7.7<br>
 Install all the necessary package and select the code segment want to run in main()
 
