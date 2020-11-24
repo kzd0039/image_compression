@@ -67,10 +67,10 @@ def rank_compress(image_name):
 def rank_over_compress():
     allfiles = glob.glob('image/*.jpg')
     ranks = [0.3, 0.6, 0.9]
-    x = [i+1 for i in range(50)]
+    x = [i+1 for i in range(20)]
     times = [[],[],[]]
-    #only test on the first 50 images
-    for image_name in allfiles[:50]:
+    #only test on the first 20 images
+    for image_name in allfiles[:20]:
         img = Image.open(image_name)
         a=np.array(img)
         for index, rank in enumerate(ranks):
@@ -85,7 +85,10 @@ def rank_over_compress():
             B=rebuild_img(u,sigma,v,rank)
 
             I=np.stack((R,G,B),2)
-            times[index].append(time.time() - start_time)
+            end_time = time.time() - start_time
+            if times[index]:
+                end_time += times[index][-1]
+            times[index].append(end_time)
     
     l1 = plt.plot(x, times[0], 'r--', label = 'rank = 0.3')
     l1 = plt.plot(x, times[1], 'g--', label = 'rank = 0.6')
