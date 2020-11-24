@@ -1,11 +1,19 @@
 # image Compression 
 Codes of three methods(codes and videos) in different folders<br>
-Dataset in image Folder.
+Dataset in image Folder.(or download from http://netdissect.csail.mit.edu/data/broden1_227.zip)
+Videos in vidow Folder.
+
+## svd
+Python 3.7.7
+Install all the necessary package and select the code segment want to run in main()
+
 ## K-mean Folder
+
 ### comparison for different Ks
 Software:MATLAB<br>
 1.download all files in MATLAB folder into the same folder<br> 2. Run PictureCompress file.<br>
 output:pic(compressed.png) shows compressed images of 5 different K values  
+
 ### test for efficiency
 Software:Python<br>
 1.download all files in Python folder into the same folder.<br>
